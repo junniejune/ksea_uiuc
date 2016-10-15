@@ -1,2 +1,2 @@
 # ksea_uiuc
-kseaWEbsite
+kseaWebsite
