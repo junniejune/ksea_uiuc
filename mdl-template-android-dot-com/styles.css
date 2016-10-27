@@ -566,7 +566,7 @@ header {
   margin: 0px;
 }
 
-img {
+img.gallery_photo {
   cursor: pointer;
   transition: filter 1s;
 }
@@ -576,6 +576,6 @@ img.col-xs-6 {
   margin: 0px;
 }
 
-img:hover {
+img.gallery_photo:hover {
   filter: blur(2px);
 }
