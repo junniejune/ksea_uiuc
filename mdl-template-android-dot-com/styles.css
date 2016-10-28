@@ -571,6 +571,11 @@ img.gallery_photo {
   transition: filter 1s;
 }
 
+input.gallery_photo {
+  cursor: pointer;
+  transition: filter 1s;
+}
+
 img.col-xs-6 {
   padding: 0px;
   margin: 0px;
@@ -579,3 +584,15 @@ img.col-xs-6 {
 img.gallery_photo:hover {
   filter: blur(2px);
 }
+
+img.gallery_photo_expanded {
+  cursor: pointer;
+  width: 100%;
+}
+
+/*img.gallery_photo:active {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  filter: blur(0px);
+}*/
