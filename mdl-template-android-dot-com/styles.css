@@ -588,11 +588,19 @@ img.gallery_photo:hover {
 img.gallery_photo_expanded {
   cursor: pointer;
   width: 100%;
+  position: relative;
 }
 
-/*img.gallery_photo:active {
+.photo_container {
+  position: relative;
+}
+
+.image_text {
+  z-index: 3;
   position: absolute;
-  z-index: 2;
+  color: #fff;
   width: 100%;
-  filter: blur(0px);
-}*/
+  text-align: center;
+  top: 50%;
+}
+
